@@ -2,3 +2,12 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+
+
+computer initializes variables package count to 2
+
+start counting packages <=50
+	print current package count
+        	then for each count +2 to <50
+end

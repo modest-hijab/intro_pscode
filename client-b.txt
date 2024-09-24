@@ -2,3 +2,28 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+Computer determines warehouse dimensions
+	computer sets user starting location
+	computer sets goal location for user
+print "Welcome to Find the Spot. You can move North, South, East, and West to navigate to your Goal Location"
+
+print continuous display of customers location inside parameters
+prompt user input a navigational direction
+
+move customer according to user input
+	follow directional input
+		if north then 1 step forward
+		if south then 1 step back
+		if east then 1 step right
+		if west then 1 step left
+
+computer upholds warehouse boundaries
+	if move is unallowed print " try again "
+
+if user obtains goal location print " Congrats! You found it!"
+end of navigation print " Thanks for using Mapping App "
+
+end
+
+

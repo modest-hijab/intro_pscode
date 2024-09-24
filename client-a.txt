@@ -2,3 +2,20 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+computer picks random num from 1 to 10
+	set user attempts to <3
+
+print "welcome to number guessing game, I picked a random number 1-10, you get 3 guesses."
+
+user enters number
+	if guess is correct
+		print " CONGRATS! CORRECT GUESS! "
+		print " Game Over "
+end loop
+	else guess is incorrect decrease attempts by -   1
+
+		if attempts >0 print "Try Again"
+		else Print "correct number"
+print "End Game"
+end
